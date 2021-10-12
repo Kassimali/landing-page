@@ -1,0 +1,136 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+.header {
+  padding-left: 200px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+image {
+  width: 100px;
+  height: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header logo {
+  display: flex;
+}
+.right-links {
+  display: flex;
+}
+.main-text {
+  color: #f9faf8;
+}
+
+.header .logo-text {
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+ul a {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .title {
+  font-size: 48px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.title-section {
+  width: 400px;
+}
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: yellow;
+}
+.button {
+  background-color: #3882f6;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  flex-grow: 0;
+  border: 1px solid white;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.info {
+  max-width: 200px;
+}
+
+.quote-section {
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+} */
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  width: 80%;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+.secondry-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.title-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.footer {
+  margin-top: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
